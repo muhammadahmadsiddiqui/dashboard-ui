@@ -1,0 +1,32 @@
+.header {
+    background-color: #1b263b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #f0f5fa;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    cursor: pointer;
+  }
+  
+  .logout-button button {
+    background-color: #3a506b;
+    color: #f0f5fa;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button button:hover {
+    background-color: #5c6c8a;
+  }
+  

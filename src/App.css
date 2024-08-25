@@ -1,0 +1,73 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #0d1b2a;
+  color: #f0f5fa;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  background-color: #1b263b;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.event-date {
+  background-color: #3a506b;
+  border-radius: 50%;
+  color: #f0f5fa;
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.event-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-title {
+  font-weight: bold;
+}
+
+.event-time, .task-due {
+  font-size: 12px;
+  color: #a6a6a6;
+}
+
+a {
+  color: #a6a6a6;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

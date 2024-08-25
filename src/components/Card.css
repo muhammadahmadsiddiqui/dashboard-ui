@@ -1,0 +1,67 @@
+.card {
+    background-color: #1b263b;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 10px;
+    color: #f0f5fa;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f0f5fa;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .card .event-date {
+    background-color: #3a506b;
+    color: #f0f5fa;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  .card .event-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card .event-title {
+    font-weight: bold;
+    color: #f0f5fa;
+  }
+  
+  .card .event-time {
+    font-size: 14px;
+    color: #a6a6a6;
+  }
+  
+  .card a {
+    color: #a6a6a6;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
